@@ -3,7 +3,7 @@
     "color": {
       "surface": {
         "default": {
-          "value": "{color.black.100}",
+          "value": "pink",
           "type": "color"
         },
         "foo": {
