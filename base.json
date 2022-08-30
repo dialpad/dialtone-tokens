@@ -3,7 +3,7 @@
     "color": {
       "surface": {
         "default": {
-          "value": "{color.neutral.white}",
+          "value": "{color.black.100}",
           "type": "color"
         },
         "foo": {
