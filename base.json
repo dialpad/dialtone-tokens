@@ -1015,17 +1015,17 @@
             "type": "color"
           },
           "primary": {
-            "value": "{color.purple.500}",
+            "value": "{color.purple.400}",
             "type": "color"
           },
           "danger": {
-            "value": "{color.red.500}",
+            "value": "{color.red.300}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{color.purple.500}",
+            "value": "{color.purple.400}",
             "type": "color"
           },
           "primary": {
