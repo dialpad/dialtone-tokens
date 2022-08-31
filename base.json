@@ -235,6 +235,28 @@
           "type": "color"
         }
       },
+      "tan": {
+        "100": {
+          "value": "#F2F0EE",
+          "type": "color"
+        },
+        "200": {
+          "value": "#CEC8C4",
+          "type": "color"
+        },
+        "300": {
+          "value": "#87807B",
+          "type": "color"
+        },
+        "400": {
+          "value": "#3F3D3C",
+          "type": "color"
+        },
+        "500": {
+          "value": "#121212",
+          "type": "color"
+        }
+      },
       "neutral": {
         "white": {
           "value": "#fff",
