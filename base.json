@@ -147,33 +147,25 @@
           "type": "color"
         }
       },
-      "pink": {
+      "magenta": {
         "100": {
-          "value": "#FFEBEC",
+          "value": "#FF97D2",
           "type": "color"
         },
         "200": {
-          "value": "#FFD8DA",
+          "value": "#F756B1",
           "type": "color"
         },
         "300": {
-          "value": "#FDA2A8",
+          "value": "#F9008E",
           "type": "color"
         },
         "400": {
-          "value": "#FF578A",
+          "value": "#8C0E56",
           "type": "color"
         },
         "500": {
-          "value": "#E92A7A",
-          "type": "color"
-        },
-        "600": {
-          "value": "#A2114D",
-          "type": "color"
-        },
-        "700": {
-          "value": "#57102E",
+          "value": "#124620",
           "type": "color"
         }
       },
