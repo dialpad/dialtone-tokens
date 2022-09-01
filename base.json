@@ -678,19 +678,19 @@
         "type": "sizing"
       },
       "100": {
-        "value": "{size.base} * .25",
+        "value": "{size.200} / 2",
         "type": "sizing"
       },
       "200": {
-        "value": "{size.base} * .5",
+        "value": "{size.300} / 2",
         "type": "sizing"
       },
       "300": {
-        "value": "{size.base} * 1",
+        "value": "{size.base} / 2",
         "type": "sizing"
       },
       "400": {
-        "value": "{size.base} * 1.5",
+        "value": "{size.base}",
         "type": "sizing"
       },
       "500": {
@@ -698,55 +698,19 @@
         "type": "sizing"
       },
       "600": {
-        "value": "{size.base} * 3",
+        "value": "{size.500} * 2",
         "type": "sizing"
       },
       "700": {
-        "value": "{size.base} * 4",
+        "value": "{size.600} * 2",
         "type": "sizing"
       },
       "800": {
-        "value": "{size.base} * 6",
-        "type": "sizing"
-      },
-      "900": {
-        "value": "{size.base} * 8",
-        "type": "sizing"
-      },
-      "1000": {
-        "value": "{size.base} * 12",
-        "type": "sizing"
-      },
-      "1100": {
-        "value": "{size.base} * 16",
-        "type": "sizing"
-      },
-      "1200": {
-        "value": "{size.base} * 18",
-        "type": "sizing"
-      },
-      "1300": {
-        "value": "{size.base} * 21",
-        "type": "sizing"
-      },
-      "1400": {
-        "value": "{size.base} * 24",
-        "type": "sizing"
-      },
-      "1500": {
-        "value": "{size.base} * 25.5",
-        "type": "sizing"
-      },
-      "1600": {
-        "value": "{size.base} * 28.5",
-        "type": "sizing"
-      },
-      "1700": {
-        "value": "{size.base} * 32",
+        "value": "{size.700} * 2",
         "type": "sizing"
       },
       "base": {
-        "value": "4px",
+        "value": "8px",
         "type": "sizing"
       },
       "border": {
@@ -807,39 +771,35 @@
       },
       "icon": {
         "100": {
-          "value": "{size.base} * 3.5",
+          "value": "{size.base} * 1.75",
           "type": "sizing"
         },
         "200": {
-          "value": "{size.base} * 4",
+          "value": "{size.500}",
           "type": "sizing"
         },
         "300": {
-          "value": "{size.base} * 4.5",
+          "value": "{size.base} * 2.25",
           "type": "sizing"
         },
         "400": {
-          "value": "{size.base} * 5",
+          "value": "{size.base} * 2.5",
           "type": "sizing"
         },
         "500": {
-          "value": "{size.base} * 6",
+          "value": "{size.base} * 3",
           "type": "sizing"
         },
         "600": {
-          "value": "{size.base} * 8",
+          "value": "{size.600}",
           "type": "sizing"
         },
         "700": {
-          "value": "{size.base} * 12",
+          "value": "{size.base} * 6",
           "type": "sizing"
         },
         "800": {
-          "value": "{size.base} * 16",
-          "type": "sizing"
-        },
-        "000": {
-          "value": "{size.base} * 3",
+          "value": "{size.base} * 8",
           "type": "sizing"
         }
       }
@@ -879,42 +839,6 @@
       },
       "800": {
         "value": "{space.base} * 6",
-        "type": "spacing"
-      },
-      "900": {
-        "value": "{space.base} * 8",
-        "type": "spacing"
-      },
-      "1000": {
-        "value": "{space.base} * 12",
-        "type": "spacing"
-      },
-      "1100": {
-        "value": "{space.base} * 16",
-        "type": "spacing"
-      },
-      "1200": {
-        "value": "{space.base} * 18",
-        "type": "spacing"
-      },
-      "1300": {
-        "value": "{space.base} * 21",
-        "type": "spacing"
-      },
-      "1400": {
-        "value": "{space.base} * 24",
-        "type": "spacing"
-      },
-      "1500": {
-        "value": "{space.base} * 25.5",
-        "type": "spacing"
-      },
-      "1600": {
-        "value": "{space.base} * 28.5",
-        "type": "spacing"
-      },
-      "1700": {
-        "value": "{space.base} * 32",
         "type": "spacing"
       },
       "base": {
