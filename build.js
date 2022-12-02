@@ -243,4 +243,58 @@ StyleDictionary.registerTransform({
   }
 });
 
+StyleDictionary.registerTransform({
+  name: 'dt/objectify',
+  type: 'attribute',
+  transformer: (token, options) => {
+    return {
+      what: 'is',
+      this: 'thing',
+    };
+  }
+});
+
+// Stores json object for documentation
+const docTokens = {};
+
+// Recurse through style dictionary object and pick out
+// bottom level token values.
+function buildDocs(platformName, currentObj) {
+  if (currentObj === null || typeof currentObj !== 'object') {
+    return null;
+  }
+
+  const tokenName = currentObj.name;
+  const tokenValue = currentObj.value;
+
+  if (tokenValue) {
+    const tokenPath = currentObj.path.join('/');
+    docTokens[tokenPath] = {
+      ...docTokens[tokenPath],
+      [platformName]: {
+        name: tokenName,
+        value: tokenValue,
+      }
+    }
+    return null;
+  }
+
+  for (const key in currentObj) {
+    if (!currentObj.hasOwnProperty(key))
+      continue;
+    buildDocs(platformName, currentObj[key]);
+  }
+
+}
+
+StyleDictionary.registerAction({
+  name: 'buildDocJson',
+  do: function(dictionary, config) {
+    const platformName = config.files[0].format.name;
+    buildDocs(platformName, dictionary.properties);
+  },
+});
+
 StyleDictionary.buildAllPlatforms();
+
+console.log(docTokens);
