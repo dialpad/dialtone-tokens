@@ -245,17 +245,6 @@ StyleDictionary.registerTransform({
   }
 });
 
-StyleDictionary.registerTransform({
-  name: 'dt/objectify',
-  type: 'attribute',
-  transformer: (token, options) => {
-    return {
-      what: 'is',
-      this: 'thing',
-    };
-  }
-});
-
 // Stores json object for documentation
 const docTokens = {};
 
