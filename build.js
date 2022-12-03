@@ -288,8 +288,6 @@ StyleDictionary.registerAction({
 
 StyleDictionary.buildAllPlatforms();
 
-console.log(docTokens);
-
 const DOC_OUTPUT_PATH = './dist/doc.json';
 
 fs.writeFile(DOC_OUTPUT_PATH, JSON.stringify(docTokens, null, 2), err => {
