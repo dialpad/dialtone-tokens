@@ -2,6 +2,8 @@
 
 var Color = require('tinycolor2');
 
+const fs = require('fs');
+
 const StyleDictionary = require('style-dictionary').extend('config.js');
 
 // Identifiers
@@ -298,3 +300,12 @@ StyleDictionary.registerAction({
 StyleDictionary.buildAllPlatforms();
 
 console.log(docTokens);
+
+const DOC_OUTPUT_PATH = './dist/doc.json';
+
+fs.writeFile(DOC_OUTPUT_PATH, JSON.stringify(docTokens, null, 2), err => {
+  if (err) {
+    throw err
+  }
+  console.log(`Token documentation data written to ${DOC_OUTPUT_PATH}`)
+})
