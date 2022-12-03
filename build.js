@@ -294,5 +294,5 @@ fs.writeFile(DOC_OUTPUT_PATH, JSON.stringify(docTokens, null, 2), err => {
   if (err) {
     throw err
   }
-  console.log(`Token documentation data written to ${DOC_OUTPUT_PATH}`)
+  console.info(`Token documentation data written to ${DOC_OUTPUT_PATH}`)
 })
