@@ -8,8 +8,8 @@ if (!fs.existsSync('dist_ios/Sources')) {
 }
 
 THEMES.forEach(theme => {
-  fs.copyFile(`dist/ios/tokens-${theme}.swift`, `dist_ios/Sources/tokens-${theme}.swift`, (err) => {
+  fs.copyFile(`dist/ios/tokens-${theme}.swift`, `dist_ios/Sources/DialtoneTokens/tokens-${theme}.swift`, (err) => {
     if (err) throw err;
-    console.log(`dialtone.swift was copied to dist_ios/Sources/tokens-${theme}.swift`);
+    console.log(`dialtone.swift was copied to dist_ios/Sources/DialtoneTokens/tokens-${theme}.swift`);
   });
 });
