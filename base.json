@@ -5313,6 +5313,356 @@
       }
     }
   },
+  "semantic/bonkers": {
+    "theme": {
+      "color": {
+        "base": {
+          "value": "red",
+          "type": "color"
+        }
+      },
+      "topbar": {
+        "color": {
+          "foreground": {
+            "value": "black",
+            "type": "color"
+          },
+          "background": {
+            "value": "#ccc",
+            "type": "color"
+          }
+        },
+        "field": {
+          "color": {
+            "foreground": {
+              "value": "green",
+              "type": "color"
+            },
+            "foreground-hover": {
+              "value": "{theme.topbar.field.color.foreground}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".75",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background": {
+              "value": "{theme.topbar.field.color.foreground}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".2",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background-hover": {
+              "value": "theme.topbar.field.color.background",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": ".8",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "border": {
+              "value": "{theme.topbar.field.color.background}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "border-hover": {
+              "value": "{theme.topbar.field.color.background}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".1",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "border-active": {
+              "value": "{theme.topbar.field.color.background}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".2",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "button": {
+          "color": {
+            "foreground": {
+              "value": "magenta",
+              "type": "color"
+            },
+            "foreground-hover": {
+              "value": "purple",
+              "type": "color"
+            },
+            "background": {
+              "value": "blue",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background-hover": {
+              "value": "{theme.topbar.button.color.background}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".05",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background-active": {
+              "value": "{theme.topbar.button.color.background}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".1",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "profile": {
+          "color": {
+            "foreground": {
+              "value": "orangered",
+              "type": "color"
+            },
+            "foreground-inverted": {
+              "value": "{color.foreground.primary-inverted}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".75",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background": {
+              "value": "yellow",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".05",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background-inverted": {
+              "value": "{theme.color.base}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".75",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background-hover": {
+              "value": "{theme.topbar.profile.color.background}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".10",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background-active": {
+              "value": "{theme.topbar.profile.color.background}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".14",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "sidebar": {
+        "color": {
+          "foreground": {
+            "value": "black",
+            "type": "color"
+          },
+          "background": {
+            "value": "#ccc",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "color": {
+            "foreground": {
+              "value": "{theme.sidebar.color.foreground}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": ".23",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "status": {
+          "color": {
+            "foreground": {
+              "value": "{theme.sidebar.color.foreground}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": ".33",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "row": {
+          "color": {
+            "background": {
+              "value": "black",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background-hover": {
+              "value": "black",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.12",
+                    "space": "hsl"
+                  }
+                }
+              }
+            },
+            "background-active": {
+              "value": "black",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".16",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selected-row": {
+          "color": {
+            "foreground": {
+              "value": "white",
+              "type": "color"
+            },
+            "background": {
+              "value": "orangered",
+              "type": "color"
+            }
+          }
+        },
+        "section": {
+          "color": {
+            "foreground": {
+              "value": "{theme.sidebar.color.foreground}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": ".5",
+                    "space": "hsl"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "components/avatar": {
     "avatar": {
       "color": {
@@ -5953,7 +6303,8 @@
         "components/icon": "enabled",
         "components/radio": "enabled",
         "components/badge": "enabled",
-        "components/avatar": "enabled"
+        "components/avatar": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6298,7 +6649,8 @@
         "components/radio/dark": "enabled",
         "components/badge": "enabled",
         "base": "enabled",
-        "components/avatar": "enabled"
+        "components/avatar": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6314,7 +6666,8 @@
         "components/checkbox": "enabled",
         "components/icon": "enabled",
         "components/radio": "enabled",
-        "semantic/tmo": "enabled"
+        "semantic/tmo": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "tmo"
     },
@@ -6335,7 +6688,8 @@
         "components/icon": "enabled",
         "components/radio": "enabled",
         "components/radio/dark": "enabled",
-        "semantic/tmo/dark": "enabled"
+        "semantic/tmo/dark": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "tmo"
     },
@@ -6351,7 +6705,8 @@
         "components/badge": "enabled",
         "components/checkbox": "enabled",
         "components/icon": "enabled",
-        "components/radio": "enabled"
+        "components/radio": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "cox"
     },
@@ -6372,7 +6727,8 @@
         "semantic/dark": "source",
         "components/checkbox/dark": "enabled",
         "components/radio/dark": "enabled",
-        "semantic/cox/dark": "enabled"
+        "semantic/cox/dark": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "cox"
     },
@@ -6388,7 +6744,8 @@
         "components/badge": "enabled",
         "components/checkbox": "enabled",
         "components/icon": "enabled",
-        "components/radio": "enabled"
+        "components/radio": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6409,7 +6766,8 @@
         "components/radio": "enabled",
         "components/radio/dark": "enabled",
         "semantic/cherry": "enabled",
-        "semantic/cherry/dark": "enabled"
+        "semantic/cherry/dark": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6425,7 +6783,8 @@
         "components/badge": "enabled",
         "components/checkbox": "enabled",
         "components/icon": "enabled",
-        "components/radio": "enabled"
+        "components/radio": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6446,7 +6805,8 @@
         "components/icon": "enabled",
         "components/radio": "enabled",
         "components/radio/dark": "enabled",
-        "semantic/blueberry/dark": "enabled"
+        "semantic/blueberry/dark": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6462,7 +6822,8 @@
         "components/badge": "enabled",
         "components/checkbox": "enabled",
         "components/icon": "enabled",
-        "components/radio": "enabled"
+        "components/radio": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6483,7 +6844,8 @@
         "components/checkbox/dark": "enabled",
         "components/icon": "enabled",
         "components/radio": "enabled",
-        "components/radio/dark": "enabled"
+        "components/radio/dark": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6499,7 +6861,8 @@
         "components/badge": "enabled",
         "components/checkbox": "enabled",
         "components/icon": "enabled",
-        "components/radio": "enabled"
+        "components/radio": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6520,7 +6883,8 @@
         "components/checkbox/dark": "enabled",
         "components/icon": "enabled",
         "components/radio": "enabled",
-        "components/radio/dark": "enabled"
+        "components/radio/dark": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6536,7 +6900,8 @@
         "components/checkbox": "enabled",
         "components/icon": "enabled",
         "components/radio": "enabled",
-        "semantic/bubblegum": "enabled"
+        "semantic/bubblegum": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6557,7 +6922,8 @@
         "components/checkbox/dark": "enabled",
         "components/icon": "enabled",
         "components/radio": "enabled",
-        "components/radio/dark": "enabled"
+        "components/radio/dark": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6573,7 +6939,8 @@
         "components/badge": "enabled",
         "components/checkbox": "enabled",
         "components/icon": "enabled",
-        "components/radio": "enabled"
+        "components/radio": "enabled",
+        "semantic/bonkers": "disabled"
       },
       "group": "dp"
     },
@@ -6594,7 +6961,24 @@
         "components/checkbox/dark": "enabled",
         "components/icon": "enabled",
         "components/radio": "enabled",
-        "components/radio/dark": "enabled"
+        "components/radio/dark": "enabled",
+        "semantic/bonkers": "disabled"
+      },
+      "group": "dp"
+    },
+    {
+      "id": "5494da056cc5e73a1b4b7eea301adb8e61430c0a",
+      "name": "bonkers",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "base": "enabled",
+        "semantic": "enabled",
+        "components/avatar": "enabled",
+        "components/badge": "enabled",
+        "components/checkbox": "enabled",
+        "components/icon": "enabled",
+        "components/radio": "enabled",
+        "semantic/bonkers": "enabled"
       },
       "group": "dp"
     }
@@ -6621,6 +7005,7 @@
       "semantic/kiwi/dark",
       "semantic/bubblegum",
       "semantic/bubblegum/dark",
+      "semantic/bonkers",
       "components/avatar",
       "components/badge",
       "components/checkbox",
