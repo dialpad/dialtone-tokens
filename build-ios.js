@@ -3,8 +3,8 @@ const fs = require('fs');
 
 const THEMES = require('./build').THEMES;
 
-if (!fs.existsSync('dist_ios/Sources')) {
-  fs.mkdirSync('dist_ios/Sources')
+if (!fs.existsSync('dist_ios/Sources/DialtoneTokens')) {
+  fs.mkdirSync( 'dist_ios/Sources/DialtoneTokens', { recursive: true })
 }
 
 THEMES.forEach(theme => {
