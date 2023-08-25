@@ -1,19 +1,19 @@
 {
   "tokenSetOrder": [
-    "base/light",
+    "base/default",
     "base/dark",
-    "semantic/dp/light",
+    "semantic/dp/default",
     "semantic/dp/dark",
-    "semantic/tmo/light",
+    "semantic/tmo/default",
     "semantic/tmo/dark",
-    "semantic/cox/light",
+    "semantic/cox/default",
     "semantic/cox/dark",
-    "components/avatar/light",
-    "components/badge/light",
-    "components/checkbox/light",
+    "components/avatar/default",
+    "components/badge/default",
+    "components/checkbox/default",
     "components/checkbox/dark",
-    "components/icon/light",
-    "components/radio/light",
+    "components/icon/default",
+    "components/radio/default",
     "components/radio/dark"
   ]
 }
