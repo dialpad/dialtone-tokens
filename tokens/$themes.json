@@ -766,7 +766,7 @@
       "components/checkbox/dark": "enabled",
       "components/radio/dark": "enabled",
       "semantic/cox/dark": "enabled",
-      "semantic/dp/dark": "source",
+      "semantic/dp/dark": "enabled",
       "base/default": "enabled",
       "semantic/dp/default": "enabled",
       "semantic/cox/default": "enabled",
