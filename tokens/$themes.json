@@ -780,5 +780,20 @@
     "$figmaModeId": "408:5",
     "$figmaVariableReferences": {},
     "group": "cox"
+  },
+  {
+    "id": "77ba8a3c8e21a4b98d5d05b836f339fdbd669eaf",
+    "name": "default",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "base/tailwind-default": "enabled",
+      "semantic/dp/default": "enabled",
+      "components/avatar/default": "enabled",
+      "components/badge/default": "enabled",
+      "components/checkbox/default": "enabled",
+      "components/icon/default": "enabled",
+      "components/radio/default": "enabled"
+    },
+    "group": "tailwind"
   }
 ]
