@@ -1,0 +1,60 @@
+{
+    "opacity": {
+        "0": {
+          "value": "0",
+          "type": "opacity"
+        },
+        "100": {
+          "value": ".05",
+          "type": "opacity"
+        },
+        "200": {
+          "value": ".1",
+          "type": "opacity"
+        },
+        "300": {
+          "value": ".2",
+          "type": "opacity"
+        },
+        "400": {
+          "value": ".25",
+          "type": "opacity"
+        },
+        "500": {
+          "value": ".3",
+          "type": "opacity"
+        },
+        "600": {
+          "value": ".4",
+          "type": "opacity"
+        },
+        "700": {
+          "value": ".5",
+          "type": "opacity"
+        },
+        "800": {
+          "value": ".6",
+          "type": "opacity"
+        },
+        "900": {
+          "value": ".7",
+          "type": "opacity"
+        },
+        "1000": {
+          "value": ".75",
+          "type": "opacity"
+        },
+        "1100": {
+          "value": ".8",
+          "type": "opacity"
+        },
+        "1200": {
+          "value": ".9",
+          "type": "opacity"
+        },
+        "1300": {
+          "value": "1",
+          "type": "opacity"
+        }
+      }
+}

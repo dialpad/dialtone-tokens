@@ -1,0 +1,112 @@
+{
+    "font": {
+        "family": {
+          "body": {
+            "value": "-apple-system,BlinkMacSystemFont,\"SF Pro\",\"Segoe UI Adjusted\",\"Segoe UI\",SFMono,\"Helvetica Neue\",Cantarell,Ubuntu,Roboto,Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+            "type": "fontFamilies"
+          },
+          "expressive": {
+            "value": "Archivo,{font.family.body}",
+            "type": "fontFamilies"
+          },
+          "mono": {
+            "value": "SFMono-Regular, \"SF Mono\", Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+            "type": "fontFamilies"
+          }
+        },
+        "size": {
+          "100": {
+            "value": "{font.size.root} * 1.2",
+            "type": "fontSizes",
+            "description": "small"
+          },
+          "200": {
+            "value": "{font.size.root} * 1.5",
+            "type": "fontSizes",
+            "description": "medium / base"
+          },
+          "300": {
+            "value": "{font.size.root} * 1.9",
+            "type": "fontSizes",
+            "description": "large"
+          },
+          "400": {
+            "value": "{font.size.root} * 2.7",
+            "type": "fontSizes",
+            "description": "extra large / xl"
+          },
+          "500": {
+            "value": "{font.size.root} * 3.8",
+            "type": "fontSizes",
+            "description": "extra large / xxl"
+          },
+          "root": {
+            "value": "10px",
+            "type": "fontSizes",
+            "description": ""
+          }
+        },
+        "lineHeight": {
+          "100": {
+            "value": "100%",
+            "type": "lineHeights"
+          },
+          "200": {
+            "value": "120%",
+            "type": "lineHeights"
+          },
+          "300": {
+            "value": "140%",
+            "type": "lineHeights"
+          },
+          "400": {
+            "value": "160%",
+            "type": "lineHeights"
+          },
+          "500": {
+            "value": "180%",
+            "type": "lineHeights"
+          },
+          "600": {
+            "value": "200%",
+            "type": "lineHeights"
+          }
+        },
+        "weight": {
+          "normal": {
+            "value": "400",
+            "type": "fontWeights"
+          },
+          "medium": {
+            "value": "500",
+            "type": "fontWeights"
+          },
+          "semiBold": {
+            "value": "600",
+            "type": "fontWeights"
+          },
+          "bold": {
+            "value": "700",
+            "type": "fontWeights"
+          }
+        },
+        "text-case": {
+          "uppercase": {
+            "value": "uppercase",
+            "type": "textCase"
+          },
+          "lowercase": {
+            "value": "lowercase",
+            "type": "textCase"
+          },
+          "capitalize": {
+            "value": "capitalize",
+            "type": "textCase"
+          },
+          "none": {
+            "value": "none",
+            "type": "textCase"
+          }
+        }
+      }
+}
