@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "base/root",
+    "root",
     "base/default",
     "base/dark",
     "semantic/dp/default",

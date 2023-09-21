@@ -339,7 +339,7 @@
       "components/checkbox/default": "enabled",
       "components/icon/default": "enabled",
       "components/radio/default": "enabled",
-      "base/root": "source"
+      "root": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:408:5",
     "$figmaModeId": "408:0",
@@ -690,7 +690,7 @@
       "components/checkbox/default": "enabled",
       "components/icon/default": "enabled",
       "components/radio/default": "enabled",
-      "base/root": "source"
+      "root": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:408:5",
     "$figmaModeId": "408:1",
@@ -710,7 +710,7 @@
       "components/checkbox/default": "enabled",
       "components/icon/default": "enabled",
       "components/radio/default": "enabled",
-      "base/root": "source"
+      "root": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:408:542",
     "$figmaModeId": "408:2",
@@ -735,7 +735,7 @@
       "components/checkbox/default": "enabled",
       "components/icon/default": "enabled",
       "components/radio/default": "enabled",
-      "base/root": "source"
+      "root": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:408:542",
     "$figmaModeId": "408:3",
@@ -755,7 +755,7 @@
       "components/checkbox/default": "enabled",
       "components/icon/default": "enabled",
       "components/radio/default": "enabled",
-      "base/root": "source"
+      "root": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:408:1079",
     "$figmaModeId": "408:4",
@@ -780,7 +780,7 @@
       "components/checkbox/default": "enabled",
       "components/icon/default": "enabled",
       "components/radio/default": "enabled",
-      "base/root": "source"
+      "root": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:408:1079",
     "$figmaModeId": "408:5",
