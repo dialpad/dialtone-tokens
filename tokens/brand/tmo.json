@@ -4,6 +4,10 @@
       "base": {
         "value": "#E20074",
         "type": "color"
+      },
+      "base-dark": {
+        "value": "#F285BC",
+        "type": "color"
       }
     },
     "mention": {
