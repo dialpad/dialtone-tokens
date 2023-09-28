@@ -7,9 +7,7 @@
       "root": "enabled",
       "brand/dp": "enabled",
       "base/base": "enabled",
-      "base/default": "enabled",
-      "mode/old-dark": "disabled",
-      "mode/dark": "disabled"
+      "base/default": "enabled"
     },
     "group": "brand"
   },
@@ -21,9 +19,7 @@
       "root": "enabled",
       "base/base": "enabled",
       "base/default": "enabled",
-      "brand/tmo": "enabled",
-      "mode/old-dark": "disabled",
-      "mode/dark": "disabled"
+      "brand/tmo": "enabled"
     },
     "group": "brand"
   },
@@ -35,9 +31,7 @@
       "root": "enabled",
       "base/base": "enabled",
       "base/default": "enabled",
-      "brand/cox": "enabled",
-      "mode/old-dark": "disabled",
-      "mode/dark": "disabled"
+      "brand/cox": "enabled"
     },
     "group": "brand"
   },
@@ -48,9 +42,7 @@
     "selectedTokenSets": {
       "root": "enabled",
       "base/base": "enabled",
-      "base/default": "enabled",
-      "mode/old-dark": "enabled",
-      "mode/dark": "disabled"
+      "mode/dark": "enabled"
     },
     "group": "mode"
   },
@@ -61,10 +53,40 @@
     "selectedTokenSets": {
       "root": "enabled",
       "base/base": "enabled",
-      "base/default": "enabled",
-      "mode/old-dark": "disabled",
-      "mode/dark": "disabled"
+      "base/default": "enabled"
     },
     "group": "mode"
+  },
+  {
+    "id": "717583890c4073e30a525d7c68d6104e770237cb",
+    "name": "high",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "contrast/high": "enabled"
+    },
+    "group": "contrast"
+  },
+  {
+    "id": "9782a6ef5eceae989426d285d9439fa9af0db290",
+    "name": "default",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base/base": "enabled",
+      "density/default": "enabled"
+    },
+    "group": "density"
+  },
+  {
+    "id": "ca06bde4fcfdc9934c722a358166a488a90139b1",
+    "name": "condensed",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base/base": "enabled",
+      "density/condensed": "source"
+    },
+    "group": "density"
   }
 ]
