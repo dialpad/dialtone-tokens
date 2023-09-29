@@ -1,12 +1,13 @@
 {
   "tokenSetOrder": [
     "root",
-    "base/base",
-    "base/default",
+    "base",
+    "mode/light",
+    "mode/dark",
     "brand/dp",
     "brand/tmo",
     "brand/cox",
-    "mode/dark",
+    "contrast/high",
     "components/avatar/default",
     "components/badge/default",
     "components/checkbox/default",

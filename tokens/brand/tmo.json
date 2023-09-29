@@ -278,8 +278,7 @@
         "color": {
           "foreground": {
             "value": "{theme.sidebar.color.foreground}",
-            "type": "color",
-            "$extensions": {}
+            "type": "color"
           }
         }
       },
@@ -287,8 +286,7 @@
         "color": {
           "foreground": {
             "value": "{color.foreground.tertiary}",
-            "type": "color",
-            "$extensions": {}
+            "type": "color"
           }
         }
       },
@@ -360,8 +358,7 @@
         "color": {
           "foreground": {
             "value": "{color.foreground.tertiary}",
-            "type": "color",
-            "$extensions": {}
+            "type": "color"
           }
         }
       }

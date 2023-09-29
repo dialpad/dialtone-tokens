@@ -1,13 +1,38 @@
 [
   {
+    "id": "f825e9765be490627af450cf096c518541417e17",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base": "enabled",
+      "mode/light": "enabled",
+      "contrast/high": "disabled"
+    },
+    "group": "mode"
+  },
+  {
+    "id": "88ff969ff3b437829d2eb747ca5ffe3ed82fb87d",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "mode/dark": "source",
+      "base": "enabled",
+      "mode/light": "source",
+      "contrast/high": "disabled"
+    },
+    "group": "mode"
+  },
+  {
     "id": "3f30976a77a0027d673d8d6280d911b13d080699",
     "name": "dp",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "root": "enabled",
       "brand/dp": "enabled",
-      "base/base": "enabled",
-      "base/default": "enabled"
+      "base": "enabled",
+      "contrast/high": "disabled"
     },
     "group": "brand"
   },
@@ -17,9 +42,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "root": "enabled",
-      "base/base": "enabled",
-      "base/default": "enabled",
-      "brand/tmo": "enabled"
+      "brand/tmo": "enabled",
+      "base": "enabled",
+      "contrast/high": "disabled"
     },
     "group": "brand"
   },
@@ -29,33 +54,22 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "root": "enabled",
-      "base/base": "enabled",
-      "base/default": "enabled",
-      "brand/cox": "enabled"
+      "brand/cox": "enabled",
+      "base": "enabled",
+      "contrast/high": "disabled"
     },
     "group": "brand"
   },
   {
-    "id": "88ff969ff3b437829d2eb747ca5ffe3ed82fb87d",
-    "name": "dark",
+    "id": "bdeeb112bfbda4fdf9381cc0c84ede3941d66300",
+    "name": "high",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "root": "enabled",
-      "base/base": "enabled",
-      "base/default": "enabled",
-      "mode/dark": "enabled"
+      "base": "enabled",
+      "mode/light": "source",
+      "contrast/high": "source"
     },
-    "group": "mode"
-  },
-  {
-    "id": "f825e9765be490627af450cf096c518541417e17",
-    "name": "light",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "root": "enabled",
-      "base/base": "enabled",
-      "base/default": "enabled"
-    },
-    "group": "mode"
+    "group": "contrast"
   }
 ]
