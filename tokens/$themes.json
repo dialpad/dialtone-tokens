@@ -6,7 +6,10 @@
     "selectedTokenSets": {
       "root": "enabled",
       "base": "enabled",
-      "mode/light": "enabled"
+      "mode/light": "enabled",
+      "colorblind/protanopia": "disabled",
+      "colorblind/tritanopia": "disabled",
+      "colorblind/deuteranopia": "disabled"
     },
     "group": "mode"
   },
@@ -18,7 +21,10 @@
       "root": "enabled",
       "base": "enabled",
       "mode/light": "enabled",
-      "mode/dark": "source"
+      "mode/dark": "source",
+      "colorblind/protanopia": "disabled",
+      "colorblind/tritanopia": "disabled",
+      "colorblind/deuteranopia": "disabled"
     },
     "group": "mode"
   },
@@ -30,7 +36,10 @@
       "root": "enabled",
       "base": "enabled",
       "brand/dp": "enabled",
-      "mode/light": "enabled"
+      "mode/light": "enabled",
+      "colorblind/protanopia": "disabled",
+      "colorblind/tritanopia": "disabled",
+      "colorblind/deuteranopia": "disabled"
     },
     "group": "brand"
   },
@@ -42,7 +51,10 @@
       "root": "enabled",
       "base": "enabled",
       "brand/tmo": "enabled",
-      "mode/light": "enabled"
+      "mode/light": "enabled",
+      "colorblind/protanopia": "disabled",
+      "colorblind/tritanopia": "disabled",
+      "colorblind/deuteranopia": "disabled"
     },
     "group": "brand"
   },
@@ -54,7 +66,10 @@
       "root": "enabled",
       "base": "enabled",
       "mode/light": "enabled",
-      "brand/cox": "enabled"
+      "brand/cox": "enabled",
+      "colorblind/protanopia": "disabled",
+      "colorblind/tritanopia": "disabled",
+      "colorblind/deuteranopia": "disabled"
     },
     "group": "brand"
   },
@@ -65,7 +80,10 @@
     "selectedTokenSets": {
       "root": "enabled",
       "base": "enabled",
-      "contrast/high": "source"
+      "contrast/high": "source",
+      "colorblind/protanopia": "disabled",
+      "colorblind/tritanopia": "disabled",
+      "colorblind/deuteranopia": "disabled"
     },
     "group": "contrast"
   },
@@ -76,7 +94,10 @@
     "selectedTokenSets": {
       "root": "enabled",
       "base": "enabled",
-      "density/comfortable": "source"
+      "density/comfortable": "source",
+      "colorblind/protanopia": "disabled",
+      "colorblind/tritanopia": "disabled",
+      "colorblind/deuteranopia": "disabled"
     },
     "group": "density"
   },
@@ -87,8 +108,33 @@
     "selectedTokenSets": {
       "root": "enabled",
       "base": "enabled",
-      "density/condensed": "source"
+      "density/condensed": "source",
+      "colorblind/protanopia": "disabled",
+      "colorblind/tritanopia": "disabled",
+      "colorblind/deuteranopia": "disabled"
     },
     "group": "density"
+  },
+  {
+    "id": "a2240610a1c61e3f8643c02959c288d5fbcedf16",
+    "name": "protanopia",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base": "enabled",
+      "colorblind/protanopia": "source"
+    },
+    "group": "colorblind"
+  },
+  {
+    "id": "fe0247726ac87029a186f478efb6ee28e5cf4704",
+    "name": "tritanopia",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base": "enabled",
+      "colorblind/tritanopia": "source"
+    },
+    "group": "colorblind"
   }
 ]
