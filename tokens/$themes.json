@@ -6,8 +6,7 @@
     "selectedTokenSets": {
       "root": "enabled",
       "base": "enabled",
-      "mode/light": "enabled",
-      "contrast/high": "disabled"
+      "mode/light": "enabled"
     },
     "group": "mode"
   },
@@ -19,8 +18,7 @@
       "root": "enabled",
       "mode/dark": "source",
       "base": "enabled",
-      "mode/light": "source",
-      "contrast/high": "disabled"
+      "mode/light": "source"
     },
     "group": "mode"
   },
@@ -31,8 +29,7 @@
     "selectedTokenSets": {
       "root": "enabled",
       "brand/dp": "enabled",
-      "base": "enabled",
-      "contrast/high": "disabled"
+      "base": "enabled"
     },
     "group": "brand"
   },
@@ -43,8 +40,7 @@
     "selectedTokenSets": {
       "root": "enabled",
       "brand/tmo": "enabled",
-      "base": "enabled",
-      "contrast/high": "disabled"
+      "base": "enabled"
     },
     "group": "brand"
   },
@@ -55,21 +51,82 @@
     "selectedTokenSets": {
       "root": "enabled",
       "brand/cox": "enabled",
-      "base": "enabled",
-      "contrast/high": "disabled"
+      "base": "enabled"
     },
     "group": "brand"
   },
   {
     "id": "bdeeb112bfbda4fdf9381cc0c84ede3941d66300",
-    "name": "high",
+    "name": "high-light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "root": "enabled",
       "base": "enabled",
       "mode/light": "source",
-      "contrast/high": "source"
+      "contrast/high-light": "source"
     },
     "group": "contrast"
+  },
+  {
+    "id": "81210404011050921ed9cb1e466568ee45e692c7",
+    "name": "high-dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "source",
+      "base": "source",
+      "mode/dark": "source",
+      "contrast/high-dark": "source"
+    },
+    "group": "contrast"
+  },
+  {
+    "id": "6060afee93e95e0d56f51d8371aee99eb220b139",
+    "name": "protanopia-light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base": "enabled",
+      "mode/light": "source",
+      "colorblind/protanopia-light": "source"
+    },
+    "group": "colorblind"
+  },
+  {
+    "id": "2bef1acba18e8c95c6c4763a8556ab63faaa7d0c",
+    "name": "protanopia-dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base": "enabled",
+      "mode/light": "source",
+      "mode/dark": "source",
+      "colorblind/protanopia-dark": "source"
+    },
+    "group": "colorblind"
+  },
+  {
+    "id": "d2e5b5ac2f45d79e006ecc20994d6c8b39645361",
+    "name": "tritanopia-light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base": "enabled",
+      "mode/light": "source",
+      "colorblind/tritanopia-light": "source"
+    },
+    "group": "colorblind"
+  },
+  {
+    "id": "2040b06a4074712db44c2c5d9f5131421b479f7c",
+    "name": "tritanopia-dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "root": "enabled",
+      "base": "enabled",
+      "mode/light": "source",
+      "mode/dark": "source",
+      "colorblind/tritanopia-dark": "source"
+    },
+    "group": "colorblind"
   }
 ]
