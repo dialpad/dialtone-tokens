@@ -1,3 +1,7 @@
+# ⚠️ Dialtone tokens repository is now part of a monorepo
+
+This repository has been deprecated and the files have been moved to [Design system monorepo](https://github.com/dialpad/design-system) on Oct. 27th, 2023.
+
 # Design Tokens for Dialtone
 
 Design tokens for Dialpad's design system Dialtone and everything related to building and publishing them.
